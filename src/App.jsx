@@ -23,7 +23,7 @@ function App() {
       localStorage.setItem('userEmail', email);
       setIsQuizStarted(true);
     } else {
-      alert('Por favor, ingresa un correo electrónico válido.');
+      alert('Correo inválido.');
     }
   };
 
