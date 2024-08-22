@@ -1,0 +1,71 @@
+/* Aplicar estilos a todo el documento */
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Alinear texto al centro en todos los divs */
+div {
+  text-align: center;
+}
+
+/* Estilo para el encabezado principal */
+header h1 {
+  font-size: 44px;
+  margin-bottom: 50px;
+}
+
+/* Estilo para la imagen de bienvenida */
+.bannerImg {
+  height: 500px;
+  width: 870px;
+  border-radius: 10px;
+}
+
+/* Contenedor del input de correo y botón */
+.input-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+/* Estilo para el input de correo */
+.email {
+  padding: 15px;
+  font-size: 20px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  width: 350px;
+}
+
+.email:focus {
+  border-color: #5f259f;
+  outline: none;
+}
+
+/* Estilo para el botón de enviar */
+#sendBtn {
+  padding: 15px 30px;
+  font-size: 20px;
+  color: white;
+  background-color: #5f259f;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#sendBtn:hover {
+  background-color: #3e1765;
+}
+
+#sendBtn:active {
+  background-color: #2a1145;
+}
+
